@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "348447219648",
+    "firebase_url": "https://quis-anak-sholeh-default-rtdb.firebaseio.com",
+    "project_id": "quis-anak-sholeh",
+    "storage_bucket": "quis-anak-sholeh.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348447219648:android:6e2cefe8a14d3051d07225",
+        "android_client_info": {
+          "package_name": "com.ashvia.quiz.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348447219648-2kamv2truf8ik2uo8sna5cpcud9m07rh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ashvia.quiz.admin",
+            "certificate_hash": "61ed377e85d386a8dfee6b864bd85b0bfaa5af81"
+          }
+        },
+        {
+          "client_id": "348447219648-rr28u0qs1h04l9mts1k3g7j5q876qnlo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdN9sCJpbFe_Lg909SCHJbzsJamFQoJRA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348447219648-rr28u0qs1h04l9mts1k3g7j5q876qnlo.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "348447219648-95kbvrnvlkqi82dfrontuip8gbb2hsn5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ashvia.quizee"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348447219648:android:8975b7cb9cb3f66ed07225",
+        "android_client_info": {
+          "package_name": "com.ashvia.quizee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348447219648-kpqvc91o6vpj14tiu12372j6m3hgmhjo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ashvia.quizee",
+            "certificate_hash": "b520b8896f3d170c03321b22c586d86b92946046"
+          }
+        },
+        {
+          "client_id": "348447219648-rr28u0qs1h04l9mts1k3g7j5q876qnlo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdN9sCJpbFe_Lg909SCHJbzsJamFQoJRA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348447219648-rr28u0qs1h04l9mts1k3g7j5q876qnlo.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "348447219648-95kbvrnvlkqi82dfrontuip8gbb2hsn5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ashvia.quizee"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
