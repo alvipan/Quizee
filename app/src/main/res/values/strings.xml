@@ -3,4 +3,36 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="title_material">Materi</string>
+    <string name="title_leaderboard">Leaderboard</string>
+    <string name="title_account">Akun</string>
+    <string name="my_point">POIN SAYA</string>
+    <string name="withdraw">Tarik</string>
+    <string name="from">from</string>
+    <string name="title_question">Quiz</string>
+    <string name="category">Kategory</string>
+    <string name="title">Judul</string>
+    
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="question_editor">Question Editor</string>
+    <string name="add_question">Tambah soal</string>
+    <string name="content">Kontent</string>
+    <string name="title_reward">Hadiah</string>
+    <string name="title_save">Simpan</string>
+    <string name="title_point">Poin</string>
+    <string name="title_time_limit">Batas waktu</string>
+    <string name="zero">0</string>
+    <string name="default_time_limit">15</string>
+    <string name="title_second">Detik</string>
+    <string name="title_option">Pilihan</string>
+    <string name="option_info">Centang jawaban yang benar.</string>
+    <string name="question">Pertanyaan</string>
+    <string name="option_a">Pilihan A</string>
+    <string name="option_b">Pilihan B</string>
+    <string name="option_c">Pilihan C</string>
+    <string name="option_d">Pilihan D</string>
+    <string name="price">Harga</string>
+    <string name="app_company">ashvia</string>
+    <string name="point_count">%d Poin</string>
+    <string name="question_count">%d Pertanyaan</string>
 </resources>

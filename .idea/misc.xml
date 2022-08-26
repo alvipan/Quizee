@@ -3,7 +3,37 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/badge_primary.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/badge_secondary.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/badge_success.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/badge_warning.xml" value="0.1675" />
+        <entry key="app/src/main/res/drawable/gradient_primary.xml" value="0.1065" />
+        <entry key="app/src/main/res/drawable/ic_bold.xml" value="0.1675" />
+        <entry key="app/src/main/res/drawable/ic_bpld.xml" value="0.1675" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_underline.xml" value="0.1675" />
+        <entry key="app/src/main/res/drawable/label_primary.xml" value="0.1675" />
+        <entry key="app/src/main/res/layout/activity_editor.xml" value="0.19947916666666668" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_account.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_detail_editor.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/fragment_editor.xml" value="0.19947916666666668" />
+        <entry key="app/src/main/res/layout/fragment_leaderboard.xml" value="0.138801261829653" />
+        <entry key="app/src/main/res/layout/fragment_material.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_material_editor.xml" value="0.18958333333333333" />
+        <entry key="app/src/main/res/layout/fragment_question.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_question_editor.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/fragment_question_editor_dialog.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_question_editor_dialog_item.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/item_dropdown_menu.xml" value="0.1984375" />
+        <entry key="app/src/main/res/layout/item_editor_question.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/item_question.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/placeholder_leaderboard.xml" value="0.5" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.2" />
+        <entry key="app/src/main/res/menu/editor_menu.xml" value="0.15180340864050734" />
+        <entry key="app/src/main/res/menu/question_menu.xml" value="0.1" />
       </map>
     </option>
   </component>

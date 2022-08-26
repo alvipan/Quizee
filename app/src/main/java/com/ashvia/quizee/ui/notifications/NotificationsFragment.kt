@@ -23,16 +23,8 @@ class NotificationsFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val model: MainViewModel by activityViewModels()
-        model.text.value = "This is notification fragment"
-
         _binding = FragmentNotificationsBinding.inflate(inflater, container, false)
         val root: View = binding.root
-
-        val textView: TextView = binding.textNotifications
-        model.text.observe(viewLifecycleOwner) {
-            textView.text = it
-        }
         return root
     }
 
