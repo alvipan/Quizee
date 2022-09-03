@@ -7,28 +7,40 @@
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="com.ashvia.quizee.ui.dashboard.DashboardFragment"
+        android:name="com.ashvia.quizee.ui.main.DashboardFragment"
         android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/fragment_dashboard" >
+        <action
+            android:id="@+id/action_navigation_dashboard_to_navigation_question"
+            app:destination="@id/navigation_question" />
+        <action
+            android:id="@+id/action_navigation_dashboard_to_navigation_leaderboard"
+            app:destination="@id/navigation_leaderboard" />
+        <action
+            android:id="@+id/action_navigation_dashboard_to_navigation_account"
+            app:destination="@id/navigation_account" />
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_account"
-        android:name="com.ashvia.quizee.ui.account.AccountFragment"
+        android:name="com.ashvia.quizee.ui.main.AccountFragment"
         android:label="@string/title_account"
         tools:layout="@layout/fragment_account" />
     <fragment
         android:id="@+id/navigation_leaderboard"
-        android:name="com.ashvia.quizee.ui.leaderboard.LeaderboardFragment"
+        android:name="com.ashvia.quizee.ui.main.LeaderboardFragment"
         android:label="@string/title_leaderboard"
         tools:layout="@layout/fragment_leaderboard" />
     <fragment
         android:id="@+id/navigation_question"
-        android:name="com.ashvia.quizee.ui.questtion.QuestionFragment"
+        android:name="com.ashvia.quizee.ui.main.QuestionFragment"
         android:label="@string/title_question"
-        tools:layout="@layout/fragment_question" />
-    <fragment
-        android:id="@+id/navigation_question_editor"
-        android:name="com.ashvia.quizee.ui.editor.QuestionEditorFragment"
-        android:label="@string/question_editor"
-        tools:layout="@layout/fragment_question_editor" />
+        tools:layout="@layout/fragment_question" >
+        <action
+            android:id="@+id/action_navigation_question_to_answer_navigation"
+            app:destination="@id/navigation_answer_question"
+            app:launchSingleTop="false"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <include app:graph="@navigation/answer_navigation" />
 </navigation>

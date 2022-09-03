@@ -5,11 +5,10 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentTransaction
 import androidx.fragment.app.activityViewModels
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.ashvia.quizee.R
 import com.ashvia.quizee.adapter.QuestionEditorAdapter
 import com.ashvia.quizee.databinding.FragmentQuestionEditorBinding
 
@@ -30,9 +29,17 @@ class QuestionEditorFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         val questionSheet = QuestionEditorDialogFragment()
-        val addButton = view.findViewById<Button>(R.id.addButton)
-        addButton.setOnClickListener {
-            questionSheet.show(parentFragmentManager,null)
+
+        binding.addButton.setOnClickListener {
+            val transaction = parentFragmentManager.beginTransaction()
+            // For a little polish, specify a transition animation
+            transaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN)
+            // To make it fullscreen, use the 'content' root view as the container
+            // for the fragment, which is always the root view for the activity
+            transaction
+                .add(android.R.id.content, questionSheet)
+                .addToBackStack(null)
+                .commit()
         }
 
         val questionItemsAdapter = QuestionEditorAdapter()

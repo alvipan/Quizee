@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="correct_answer">Jawaban benar</string>
+    <string name="wrong_answer">Jawaban salah</string>
+    <string name="point_report">LAPORAN POIN</string>
+</resources>

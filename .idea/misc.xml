@@ -13,24 +13,36 @@
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_underline.xml" value="0.1675" />
         <entry key="app/src/main/res/drawable/label_primary.xml" value="0.1675" />
+        <entry key="app/src/main/res/drawable/radio_answer_option.xml" value="0.1205" />
+        <entry key="app/src/main/res/drawable/radio_answer_option_checked.xml" value="0.18" />
+        <entry key="app/src/main/res/drawable/radio_answer_option_unchecked.xml" value="0.1675" />
+        <entry key="app/src/main/res/layout/activity_answer.xml" value="0.19947916666666668" />
         <entry key="app/src/main/res/layout/activity_editor.xml" value="0.19947916666666668" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_account.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_answer_question.xml" value="0.22" />
         <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_detail_editor.xml" value="0.22" />
         <entry key="app/src/main/res/layout/fragment_editor.xml" value="0.19947916666666668" />
         <entry key="app/src/main/res/layout/fragment_leaderboard.xml" value="0.138801261829653" />
         <entry key="app/src/main/res/layout/fragment_material.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_material_check_out_dialog.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_material_check_out_modal.xml" value="0.19947916666666668" />
         <entry key="app/src/main/res/layout/fragment_material_editor.xml" value="0.18958333333333333" />
         <entry key="app/src/main/res/layout/fragment_question.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_question_detail_modal.xml" value="0.19947916666666668" />
         <entry key="app/src/main/res/layout/fragment_question_editor.xml" value="0.22" />
         <entry key="app/src/main/res/layout/fragment_question_editor_dialog.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_question_editor_dialog_item.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/fragment_question_material.xml" value="0.19947916666666668" />
+        <entry key="app/src/main/res/layout/fragment_question_overview.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_question_result_dialog.xml" value="0.33" />
         <entry key="app/src/main/res/layout/item_dropdown_menu.xml" value="0.1984375" />
         <entry key="app/src/main/res/layout/item_editor_question.xml" value="0.25" />
         <entry key="app/src/main/res/layout/item_question.xml" value="0.33" />
         <entry key="app/src/main/res/layout/placeholder_leaderboard.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/toolbar_question_answer.xml" value="0.33" />
         <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.2" />
         <entry key="app/src/main/res/menu/editor_menu.xml" value="0.15180340864050734" />
         <entry key="app/src/main/res/menu/question_menu.xml" value="0.1" />

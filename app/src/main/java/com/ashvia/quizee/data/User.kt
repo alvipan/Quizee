@@ -1,4 +1,4 @@
-package com.ashvia.quizee.model
+package com.ashvia.quizee.data
 
 import java.io.Serializable
 
@@ -7,6 +7,7 @@ data class User(
     var displayName: String? = "",
     var email: String? = "",
     var photoUrl: String? = "",
-    var point: Double = 0.0,
-    var role: String = "member"
+    var point: Int? = 0,
+    var material: ArrayList<String>? = ArrayList(),
+    var role: String? = "member"
 ): Serializable

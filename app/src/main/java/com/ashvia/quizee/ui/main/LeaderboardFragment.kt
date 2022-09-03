@@ -1,4 +1,4 @@
-package com.ashvia.quizee.ui.leaderboard
+package com.ashvia.quizee.ui.main
 
 import android.os.Bundle
 import android.view.LayoutInflater

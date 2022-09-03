@@ -9,7 +9,7 @@ import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.Lifecycle
 import androidx.viewpager2.adapter.FragmentStateAdapter
 import com.ashvia.quizee.databinding.ActivityEditorBinding
-import com.ashvia.quizee.model.Question
+import com.ashvia.quizee.data.Question
 import com.ashvia.quizee.ui.editor.DetailEditorFragment
 import com.ashvia.quizee.ui.editor.EditorViewModel
 import com.ashvia.quizee.ui.editor.MaterialEditorFragment
@@ -56,15 +56,14 @@ class EditorActivity : AppCompatActivity() {
             question = it
         }
 
-        val adapter = supportFragmentManager.let {
-            this.ViewPagerAdapter(it, lifecycle)
-        }
+        val adapter = supportFragmentManager.let { this.ViewPagerAdapter(it, lifecycle) }
         binding.viewPager.adapter = adapter
+        binding.viewPager.isUserInputEnabled = false
         TabLayoutMediator(binding.tabLayout, binding.viewPager) { tab, position ->
             when (position) {
                 0 -> tab.text = "Rincian"
-                1 -> tab.text = "Soal"
-                2 -> tab.text = "Materi"
+                1 -> tab.text = "Materi"
+                2 -> tab.text = "Soal"
             }
         }.attach()
     }
@@ -94,8 +93,8 @@ class EditorActivity : AppCompatActivity() {
         override fun createFragment(position: Int): Fragment {
             return when (position) {
                 0 -> DetailEditorFragment()
-                1 -> QuestionEditorFragment()
-                else -> MaterialEditorFragment()
+                1 -> MaterialEditorFragment()
+                else -> QuestionEditorFragment()
             }
         }
     }

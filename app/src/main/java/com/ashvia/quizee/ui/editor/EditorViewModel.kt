@@ -2,9 +2,9 @@ package com.ashvia.quizee.ui.editor
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.ashvia.quizee.model.Material
-import com.ashvia.quizee.model.Question
-import com.ashvia.quizee.model.QuestionItem
+import com.ashvia.quizee.data.Material
+import com.ashvia.quizee.data.Question
+import com.ashvia.quizee.data.QuestionItem
 
 class EditorViewModel: ViewModel() {
 

@@ -5,14 +5,12 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.RadioButton
+import androidx.fragment.app.DialogFragment
 import androidx.fragment.app.activityViewModels
+import com.ashvia.quizee.data.QuestionItem
 import com.ashvia.quizee.databinding.FragmentQuestionEditorDialogBinding
-import com.ashvia.quizee.model.QuestionItem
-import com.google.android.material.bottomsheet.BottomSheetBehavior
-import com.google.android.material.bottomsheet.BottomSheetDialog
-import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 
-class QuestionEditorDialogFragment : BottomSheetDialogFragment() {
+class QuestionEditorDialogFragment : DialogFragment() {
 
     private var _binding: FragmentQuestionEditorDialogBinding? = null
     private val binding get() = _binding!!
@@ -28,10 +26,6 @@ class QuestionEditorDialogFragment : BottomSheetDialogFragment() {
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        dialog.let {
-            val sheet = it as BottomSheetDialog
-            sheet.behavior.state = BottomSheetBehavior.STATE_EXPANDED
-        }
 
         binding.saveButton.setOnClickListener {
             val questionContent = binding.questionContent.text.toString()
@@ -54,10 +48,10 @@ class QuestionEditorDialogFragment : BottomSheetDialogFragment() {
             }
 
             // set default timer
-            var questionTimer = 15
+            var questionTimer = 15L
             binding.questionTimer.text.toString().let {
                 if (it.isNotEmpty()) {
-                    questionTimer = it.toInt()
+                    questionTimer = it.toLong()
                 }
             }
 

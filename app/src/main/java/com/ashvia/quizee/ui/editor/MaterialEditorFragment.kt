@@ -1,17 +1,15 @@
 package com.ashvia.quizee.ui.editor
 
-import android.graphics.Color
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import com.ashvia.quizee.databinding.FragmentMaterialEditorBinding
-import com.ashvia.quizee.model.Material
+import com.ashvia.quizee.data.Material
 import com.github.onecode369.wysiwyg.WYSIWYG
 import com.github.onecode369.wysiwyg.WYSIWYG.OnTextChangeListener
 
@@ -38,9 +36,6 @@ class MaterialEditorFragment : Fragment() {
     }
 
     private fun getMaterialEditor() {
-        var isBold = false
-        var isItalic = false
-        var isUnderline = false
 
         editor = binding.editor
         editor.setEditorFontSize(18)
@@ -70,40 +65,39 @@ class MaterialEditorFragment : Fragment() {
         })
 
         binding.btnBold.setOnClickListener {
-            editor.focusEditor()
             editor.setBold()
-            isBold = when (isBold) {
-                true -> false
-                else -> true
-            }
-            changeTint(binding.btnBold, isBold)
         }
 
         binding.btnItalic.setOnClickListener {
-            editor.focusEditor()
             editor.setItalic()
-            isItalic = when (isItalic) {
-                true -> false
-                else -> true
-            }
-            changeTint(binding.btnItalic, isItalic)
         }
 
         binding.btnUnderline.setOnClickListener {
-            editor.focusEditor()
             editor.setUnderline()
-            isUnderline = when (isUnderline) {
-                true -> false
-                else -> true
-            }
-            changeTint(binding.btnUnderline, isUnderline)
         }
-    }
 
-    private fun changeTint(view: ImageView, status: Boolean) {
-        when (status) {
-            true -> view.setColorFilter(Color.BLACK)
-            else -> view.setColorFilter(Color.parseColor("#bdbdbd"))
+        binding.btnAlignLeft.setOnClickListener {
+            editor.setAlignLeft()
+        }
+
+        binding.btnAlignRight.setOnClickListener {
+            editor.setAlignRight()
+        }
+
+        binding.btnAlignCenter.setOnClickListener {
+            editor.setAlignCenter()
+        }
+
+        binding.btnAlignJustify.setOnClickListener {
+            editor.setAlignJustifyFull()
+        }
+
+        binding.btnInsertBullets.setOnClickListener {
+            editor.setBullets()
+        }
+
+        binding.btnInsertNumber.setOnClickListener {
+            editor.setNumbers()
         }
     }
 }

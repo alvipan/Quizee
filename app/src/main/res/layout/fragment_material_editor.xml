@@ -12,7 +12,6 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        app:layout_constraintBottom_toTopOf="@+id/latext_editor"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -69,6 +68,80 @@
                     android:contentDescription="@null"
                     android:padding="8dp"
                     android:src="@drawable/ic_underline"
+                    app:tint="@color/secondary"
+                    tools:ignore="ImageContrastCheck" />
+
+                <View
+                    android:id="@+id/divider2"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageView
+                    android:id="@+id/btn_align_left"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:contentDescription="@null"
+                    android:padding="8dp"
+                    android:src="@drawable/justify_left"
+                    app:tint="@color/secondary"
+                    tools:ignore="ImageContrastCheck" />
+
+                <ImageView
+                    android:id="@+id/btn_align_right"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:contentDescription="@null"
+                    android:padding="8dp"
+                    android:src="@drawable/justify_right"
+                    app:tint="@color/secondary"
+                    tools:ignore="ImageContrastCheck" />
+
+                <ImageView
+                    android:id="@+id/btn_align_center"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:contentDescription="@null"
+                    android:padding="8dp"
+                    android:src="@drawable/justify_center"
+                    app:tint="@color/secondary"
+                    tools:ignore="ImageContrastCheck" />
+
+                <ImageView
+                    android:id="@+id/btn_align_justify"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:contentDescription="@null"
+                    android:padding="8dp"
+                    android:src="@drawable/justify_full"
+                    app:tint="@color/secondary"
+                    tools:ignore="ImageContrastCheck" />
+
+                <View
+                    android:id="@+id/divider3"
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageView
+                    android:id="@+id/btn_insert_bullets"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:contentDescription="@null"
+                    android:padding="8dp"
+                    android:src="@drawable/list_bulleted"
+                    app:tint="@color/secondary"
+                    tools:ignore="ImageContrastCheck" />
+
+                <ImageView
+                    android:id="@+id/btn_insert_number"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:contentDescription="@null"
+                    android:padding="8dp"
+                    android:src="@drawable/list_numbered"
                     app:tint="@color/secondary"
                     tools:ignore="ImageContrastCheck" />
 

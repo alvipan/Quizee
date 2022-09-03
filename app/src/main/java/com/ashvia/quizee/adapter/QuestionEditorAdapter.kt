@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.ashvia.quizee.R
-import com.ashvia.quizee.model.QuestionItem
+import com.ashvia.quizee.data.QuestionItem
 
 class QuestionEditorAdapter(var dataSet: ArrayList<QuestionItem> = ArrayList()) :
     RecyclerView.Adapter<QuestionEditorAdapter.ViewHolder>() {

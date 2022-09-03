@@ -1,4 +1,4 @@
-package com.ashvia.quizee.model
+package com.ashvia.quizee.data
 
 data class Material(
     var content: String? = "",

@@ -6,7 +6,7 @@
     <string name="title_material">Materi</string>
     <string name="title_leaderboard">Leaderboard</string>
     <string name="title_account">Akun</string>
-    <string name="my_point">POIN SAYA</string>
+    <string name="my_point">Poin saya</string>
     <string name="withdraw">Tarik</string>
     <string name="from">from</string>
     <string name="title_question">Quiz</string>
@@ -35,4 +35,23 @@
     <string name="app_company">ashvia</string>
     <string name="point_count">%d Poin</string>
     <string name="question_count">%d Pertanyaan</string>
+    <string name="title_activity_answer">AnswerActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="total_question">Total pertanyaan</string>
+    <string name="total_reward">Todal hadiah</string>
+    <string name="total_time">Total waktu</string>
+    <string name="start">Mulai</string>
+    <string name="read_material">Baca Materi</string>
+    <string name="pay_with">Bayar dengan</string>
+    <string name="watching_video">Nonton video</string>
+    <string name="pay">Bayar</string>
+    <string name="confirm">Konfirmasi</string>
+    <string name="double_point">Gandakan Point</string>
 </resources>
